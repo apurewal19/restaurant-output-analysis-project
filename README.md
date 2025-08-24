@@ -1,13 +1,13 @@
 # restaurant-output-analysis-project
 
-### 📌 Overview
+## 📌 Overview
 
 This project evaluates restaurant operations using SQL and Tableau, providing insights into orders, ingredient usage, inventory levels, and labour costs to support data-driven decisions and improve efficiency.
 
-### 👉 View Interactive Dashboard on Tableau Public: 
+## 👉 View Interactive Dashboard on Tableau Public: 
 https://public.tableau.com/app/profile/amritpal.purewal/viz/RestaurantOutputAnalysis/Orders
 
-### 📊 Dashboard Features
+## 📊 Dashboard Features
 
 1. **Orders Analysis** – Track order volumes, item categories, and delivery locations.
 
@@ -19,7 +19,7 @@ https://public.tableau.com/app/profile/amritpal.purewal/viz/RestaurantOutputAnal
 
 5. **Profitability Metrics** – Assess food and labour costs to identify high-margin and low-margin items.
 
-### 🗂 Data Sources
+## 🗂 Data Sources
 
 | Dataset / SQL File               | Description                                     |
 | -------------------------------- | ----------------------------------------------- |
@@ -28,7 +28,7 @@ https://public.tableau.com/app/profile/amritpal.purewal/viz/RestaurantOutputAnal
 | `order_weight_and_inventory.sql` | Ingredient weight per order and remaining stock |
 | `time.sql`                       | Staff shift hours and labour cost calculations   |
 
-### 📈 Business Insights
+## 📈 Business Insights
 
 These queries provide actionable insights for restaurant operations and decision-making:
 
