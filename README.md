@@ -38,3 +38,21 @@ These queries provide actionable insights for restaurant operations and decision
 | `order_activity.sql`             | - What items are most frequently ordered? <br> - Where are orders being delivered? <br> - What is the revenue per order or item?                                                          |
 | `order_weight_and_inventory.sql` | - What is the total weight of ingredients needed per order? <br> - How much does each ingredient cost per order? <br> - Are there discrepancies between inventory and order requirements? |
 | `staff.sql`                       | - How many hours did staff work per shift? <br> - What is the total labour cost per staff or shift? <br> - Are staffing costs aligned with order volume and peak times?                    |
+
+## 🗄️ Database Schema
+
+|    Table        | Description                                                                                                       |
+| --------------- | ----------------------------------------------------------------------------------------------------------------- |
+| `customers`     | Stores customer information such as first and last names.                                                         |
+| `address`       | Stores delivery addresses linked to customers.                                                                    |
+| `item`          | Stores menu items with their SKU, category, size, and price.                                                      |
+| `ingredient`    | Stores ingredient details including weight, measurement, and cost.                                                |
+| `orders`        | Tracks customer orders, including items, quantities, delivery info, and links to customers, addresses, and items. |
+| `recipe`        | Maps ingredients and quantities required for each menu item.                                                      |
+| `inventory`     | Tracks available stock of ingredients in inventory.                                                               |
+| `staff`         | Stores staff information including hourly rates and roles.                                                        |
+| `shift`         | Stores shift start and end times.                                                                                 |
+| `rota`          | Assigns staff to shifts on specific dates, linking staff to scheduled shifts.                                     |
+
+<img width="925" height="745" alt="schema" src="https://github.com/user-attachments/assets/50c84352-318e-49b2-a54d-0e1727531f90" />
+
