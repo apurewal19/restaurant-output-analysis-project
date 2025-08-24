@@ -1,11 +1,14 @@
-# restaurant-output-analysis-project
-
 ## 📌 Overview
 
 This project evaluates restaurant operations using SQL and Tableau, providing insights into orders, ingredient usage, inventory levels, and labour costs to support data-driven decisions and improve efficiency.
 
 ## 👉 View Interactive Dashboard on Tableau Public: 
 https://public.tableau.com/app/profile/amritpal.purewal/viz/RestaurantOutputAnalysis/Orders
+
+<div>
+  <img width="500" height="350" alt="tableau_dashboard_orders" src="https://github.com/user-attachments/assets/f160f286-f20c-44f6-911a-c2275c8a88f9" />
+  <img width="500" height="350" alt="tableau_dashboard_inventory" src="https://github.com/user-attachments/assets/d2a21952-8ae9-4c37-9f1c-c54cc4e23b23" />
+</div>
 
 ## 📊 Dashboard Features
 
